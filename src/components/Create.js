@@ -1,13 +1,14 @@
 import React from 'react';
 import Typed from 'react-typed';
 import camera from '../images/Camera.svg'
+import cog from '../images/cog.png'
 
 export default function Create() {
 	return (
 		<div className='create'>
 			<div className='top-bar'>
 				<p className='greyed'>Cancel</p>
-				settings cog
+				<img src={ cog } alt="settings cog" style={{ cursor: 'pointer' }} />
 			</div>
 			<div className='create-event'>
 				<h1>
@@ -22,7 +23,6 @@ export default function Create() {
 							"dinner",
 							"house party",
 							"lowkey gatho",
-							"networking event",
 							"drinks night"
 						]}
 						typeSpeed={50}
