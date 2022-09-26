@@ -7,7 +7,7 @@ export default function Navbar() {
 			<a href="/">
 				<div className='logo'>
 					<img src={ icon } alt="envited logo" />
-					e-vited
+					envited
 				</div>
 			</a>
 			<button className='login-signup'>

@@ -7,12 +7,14 @@ export default function Create() {
 	return (
 		<div className='create'>
 			<div className='top-bar'>
-				<p className='greyed'>Cancel</p>
+				<a href="/">
+					<p className='greyed'>Cancel</p>
+				</a>
 				<img src={ cog } alt="settings cog" style={{ cursor: 'pointer' }} />
 			</div>
 			<div className='create-event'>
 				<h1>
-					Create your {" "}
+					Plan your {" "}
 					<Typed
 						className='typed'
 						strings={[
@@ -37,23 +39,23 @@ export default function Create() {
 						<input type="text" />
 
 						<p>🗓 It starts at</p>
-						<input type="text" />
+						<input type="date" />
 
 						<p>🏁 It ends at <span className='optional'>(optional)</span></p>
 						<input type="text" />
 
 						<p>📍 It’s happening at <span className='optional'>(optional)</span></p>
-						<input type="text" />
+						<input type="text" placeholder='Location' />
 
 						<p>🔗 Add a URL link <span className='optional'>(optional)</span></p>
-						<input type="text" />
+						<input type="text" placeholder='URL' />
 
 						<p>✏️ Description <span className='optional'>(optional)</span></p>
 						<input type="text" />
 					</form>
 					<div className='image-placeholder'>
-						<img src={ camera } alt="image placeholder" />
-						<p style={{ fontWeight: 'bold', fontSize: '20px' }}>Choose a photo</p> 
+						<img src={ camera } alt="image placeholder" style={{ cursor: 'pointer' }} />
+						<p style={{ fontWeight: 'bold', fontSize: '20px', cursor: 'pointer' }}>Choose a photo</p> 
 					</div>
 				</div>
 				<a href="/event">
