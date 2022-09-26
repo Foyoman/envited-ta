@@ -8,6 +8,6 @@ Hi Envited! Here is my attempt for the technical assessment. Please:
 I'd also like to let you know that I actually cloned your site in preparation for this test! [Here](https://github.com/Foyoman/envited-clone) is the link to the repo, I hope you appreciate it! I definitely feel proud that I did it :)
 
 ## Features
-- Desktop, iPad, *and* mobile responsive
+- Desktop, iPad, *and* mobile responsive. I used Chrome's 'responsive' mode in the console to test responsiveness. Tested with the options for 'iPhone 12 Pro' and 'iPad Pro'.
 - Dynamic typing effect
 - Dynamically animated background gradient on the buttons
