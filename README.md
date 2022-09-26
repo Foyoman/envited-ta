@@ -1,12 +1,13 @@
-# Edward's envited clone
+# Edward's Technical Assessment for Envited
 
-Hi team @ envited / Mihailo! In preparation for my technical assessment I decided to practice by recreating your site.
+Hi Envited! Here is my attempt for the technical assessment. Please:
+- Clone this onto your local machine
+- ```npm i --force``` to install all dependencies. ```--force``` is required as I am using 'Typed', a package for typing animations, like what you have on your official site.
+- ```npm start``` to view the project on your local machine
 
-[Here](https://envited-clone.netlify.app/) is the link to the deployed site on netlify!
-
-It is only a wireframe/aesthetic clone of your site, the buttons don't do anything or lead anywhere. It's both desktop *and* mobile friendly, although the mobile version is a bit bugged, where some mobile browsers' navigation bar aren't counted as part of the viewport.
+I'd also like to let you know that I actually cloned your site in preparation for this test! [Here](https://github.com/Foyoman/envited-cline) is the link to the repo, I hope you appreciate it! I definitely feel proud that I did it :)
 
 ## Features
+- Desktop, iPad, *and* mobile responsive
 - Dynamic typing effect
-- Snap scrolling
 - Dynamically animated background gradient on the buttons
