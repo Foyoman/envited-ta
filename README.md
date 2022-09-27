@@ -7,6 +7,8 @@ Hi Envited/Mihailo! Here is my attempt for the technical assessment. Please:
 
 I'd also like to let you know that I actually cloned your site to practice in preparation for this test! [Here](https://github.com/Foyoman/envited-clone) is the link to the repo, I hope you appreciate it! I definitely feel proud that I did it :)
 
+*Also please note that I made a change on 28/9, two days after the TA. I understand that this is a bit unfair, but I only changed one line in the scss file, changing a max-height to height. 
+
 ## Features
 - Desktop, iPad, *and* mobile responsive. I used Chrome's 'responsive' mode in the console to test responsiveness. Tested with the options for 'iPhone 12 Pro' and 'iPad Pro'.
 - Dynamic typing effect
