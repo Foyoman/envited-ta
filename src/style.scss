@@ -178,10 +178,10 @@ button {
 }
 
 .create {
-	padding: 64px 16px;
+	padding: 24px 64px;
 	max-width: 1536px;
 	margin: 0 auto;
-	height: $vh-nav;
+	// height: $vh-nav;
 }
 
 .top-bar {
@@ -203,7 +203,7 @@ button {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	max-width: 742px;
+	max-width: 50%;
 
 	p	{
 		margin: 24px 0 8px;
@@ -234,6 +234,7 @@ button {
 }
 
 .side-by-side {
+	flex: 1 1 0;
 	display: flex;
 	justify-content: space-between;
 }
@@ -360,14 +361,18 @@ button {
 		margin-top: 53px;
 	}
 
-	.create {
-		padding: 16px;
-	}
+	// .create {
+	// 	padding: 16px;
+	// }
 	
 	.create-event {
 		h1 {
 			text-align: center;
 		}
+	}
+
+	.event-form {
+		max-width: 100%;
 	}
 
 	.side-by-side {
@@ -379,7 +384,7 @@ button {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 742px;
+		// width: 742px;
 		margin-top: 52px !important;
 	}
 
@@ -429,6 +434,10 @@ button {
 		max-width: 100%;
 		height: auto;
 		margin-top: 16px;
+	}
+
+	.create {
+		padding: 16px;
 	}
 
 	.create-button {
